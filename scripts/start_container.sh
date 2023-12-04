@@ -5,4 +5,4 @@ set -e
 docker pull samuji/simple_flask:latest
 
 # Run the Docker image as a container
-sudo docker run -d -p 5000:5000 samuji/simple_flask:latest
+docker run -d -p 5000:5000 samuji/simple_flask:latest
